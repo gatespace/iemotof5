@@ -1,12 +1,12 @@
 {
-  "name": "@package Iemoto Foundation 5",
-  "title": "Iemoto",
-  "description": "Megumi theme based on Underscores",
+  "name": "Iemoto Foundation 5",
+  "title": "Iemoto Foundation 5",
+  "description": "Foundation 5 theme based on Underscores",
   "version": "0.1.0",
-  "homepage": "https://www.digitalcube.jp/",
+  "homepage": "https://github.com/gatespace/iemotof5",
   "author": {
-    "name": "DigitalCube Co.,Ltd",
-    "url": "https://www.digitalcube.jp/"
+    "name": "gatespace",
+    "url": "https://gatespace.jp/"
   },
   "devDependencies": {
     "gulp": "^3.8.7",

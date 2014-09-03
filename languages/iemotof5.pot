@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Iemoto Foundation 5 0.1.0\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tags/iemoto\n"
-"POT-Creation-Date: 2014-09-03 10:14:04+00:00\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/iemotof5\n"
+"POT-Creation-Date: 2014-09-03 10:52:44+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -291,7 +291,7 @@ msgid "Iemoto Foundation 5"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "https://www.digitalcube.jp/"
+msgid "https://github.com/gatespace/iemotof5"
 msgstr ""
 
 #. Description of the plugin/theme
