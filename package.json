@@ -1,0 +1,22 @@
+{
+  "name": "@package Iemoto Foundation 5",
+  "title": "Iemoto",
+  "description": "Megumi theme based on Underscores",
+  "version": "0.1.0",
+  "homepage": "https://www.digitalcube.jp/",
+  "author": {
+    "name": "DigitalCube Co.,Ltd",
+    "url": "https://www.digitalcube.jp/"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-compass": "^1.3.1",
+    "gulp-concat-util": "^0.4.0",
+    "gulp-jshint": "^1.8.4",
+    "gulp-load-plugins": "^0.5.3",
+    "gulp-minify-css": "^0.3.7",
+    "gulp-replace": "^0.4.0",
+    "gulp-uglify": "^0.3.1"
+  },
+  "keywords": []
+}

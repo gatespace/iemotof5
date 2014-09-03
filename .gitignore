@@ -1,0 +1,8 @@
+node_modules
+.sass-cache
+bower_components
+LINGUAS
+Makefile
+css
+iemotof5.min.js
+editor-style.css

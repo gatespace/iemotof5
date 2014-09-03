@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/*!
+Theme Name: Iemoto Foundation 5
+Theme URI: https://www.digitalcube.jp/
+Author: gatespace
+Author URI: https://gatespace.jp/
+Description: Foundation 5 theme based on Underscores
+Version: <%= pkg.version %>
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: iemotof5
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Iemoto is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+@import "compass";
+@import "normalize";
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS: WordPress Class
+----------------------------------------------------------------
+1.0 Navigation of comment, paging, post
+2.0 Accessibility
+3.0 Alignments
+4.0 Clearings
+5.0 Widgets
+6.0 Content
+	6.1 Posts and pages
+	6.2 Asides
+	6.3 Comments
+7.0 Infinite scroll
+8.0 Media
+	8.1 Captions
+	8.2 Galleries
+9.0 Header and Footer
+	9.1 Header
+	9.2 Footer
+10.0 Layout
+--------------------------------------------------------------*/
+
+@import "wordpress/functions";
+@import "variables";
+
+/*--------------------------------------------------------------
+1.0 Navigation of comment, paging, post
+--------------------------------------------------------------*/
+@import "wordpress/paging";
+
+/*--------------------------------------------------------------
+2.0 Accessibility
+--------------------------------------------------------------*/
+@import "wordpress/accessibility";
+
+/*--------------------------------------------------------------
+3.0 Alignments
+--------------------------------------------------------------*/
+@import "wordpress/alignments";
+
+/*--------------------------------------------------------------
+4.0 Clearings
+--------------------------------------------------------------*/
+@import "wordpress/clearings";
+
+/*--------------------------------------------------------------
+5.0 Widgets
+--------------------------------------------------------------*/
+@import "wordpress/widgets";
+
+/*--------------------------------------------------------------
+6.0 Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+6.1 Posts and pages
+--------------------------------------------------------------*/
+@import "wordpress/content";
+/*--------------------------------------------------------------
+6.2 Asides
+--------------------------------------------------------------*/
+@import "wordpress/aside";
+/*--------------------------------------------------------------
+6.3 Comments
+--------------------------------------------------------------*/
+@import "wordpress/comment";
+
+/*--------------------------------------------------------------
+7.0 Infinite scroll
+--------------------------------------------------------------*/
+@import "wordpress/infinitescroll";
+
+/*--------------------------------------------------------------
+8.0 Media
+--------------------------------------------------------------*/
+@import "wordpress/media";
+/*--------------------------------------------------------------
+8.1 Captions
+--------------------------------------------------------------*/
+@import "wordpress/captions";
+
+/*--------------------------------------------------------------
+8.2 Galleries
+--------------------------------------------------------------*/
+@import "wordpress/galleries";
+
+/*--------------------------------------------------------------
+9.0 Header and Footer
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+9.1 Header
+--------------------------------------------------------------*/
+@import "wordpress/header";
+/*--------------------------------------------------------------
+9.2 Footer
+--------------------------------------------------------------*/
+@import "wordpress/footer";
+
+/*--------------------------------------------------------------
+10.0 Layout
+--------------------------------------------------------------*/
+@import "wordpress/layout";

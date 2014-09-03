@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.clear,
+.entry-content,
+.comment-content,
+.site-header,
+.site-content,
+.site-footer {
+	@include pie-clearfix;
+}

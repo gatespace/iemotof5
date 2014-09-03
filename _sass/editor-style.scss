@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/*!
+Theme Name: Iemoto
+Description: Used to style the TinyMCE editor.
+*/
+@import "compass";
+@import "normalize";
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Alignments
+2.0 Content
+3.0 Media
+	3.1 Captions
+	3.2 Galleries
+	3.3 Audio/Video
+--------------------------------------------------------------*/
+
+@import "wordpress/functions";
+@import "variables";
+
+/*--------------------------------------------------------------
+1.0 Alignments
+--------------------------------------------------------------*/
+@import "wordpress/alignments";
+
+/*--------------------------------------------------------------
+2.0 Content
+--------------------------------------------------------------*/
+@import "wordpress/content";
+body#tinymce.wp-editor { 
+	margin: 10px; 
+}
+
+/*--------------------------------------------------------------
+3.0 Media
+--------------------------------------------------------------*/
+@import "wordpress/media";
+/*--------------------------------------------------------------
+3.1 Captions
+--------------------------------------------------------------*/
+@import "wordpress/captions";
+/*--------------------------------------------------------------
+3.2 Galleries
+--------------------------------------------------------------*/
+@import "wordpress/galleries";
+/*--------------------------------------------------------------
+3.3 Audio/Video
+--------------------------------------------------------------*/
+.mejs-mediaelement,
+.mejs-container .mejs-controls {
+	background: #000;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	background: #fff;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-current {
+	background: #24890d;
+}
+
+.mejs-controls .mejs-time-rail .mejs-time-total,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+	background: rgba(255, 255, 255, .33);
+}
+
+.mejs-controls .mejs-time-rail span,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+	border-radius: 0;
+}
+
+.mejs-overlay-loading {
+	background: transparent;
+}
+
