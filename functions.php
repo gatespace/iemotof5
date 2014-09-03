@@ -31,7 +31,7 @@ function iemotof5_setup() {
 	load_theme_textdomain( 'iemotof5', get_template_directory() . '/languages' );
 
 	// This theme styles the visual editor to resemble the theme style.
-	add_editor_style( array( 'app.css', 'editor-style.css' ) );
+	add_editor_style();
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
