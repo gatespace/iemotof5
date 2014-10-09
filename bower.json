@@ -1,7 +1,7 @@
 {
   "name": "Iemoto Foundation 5",
   "dependencies": {
-    "foundation": "~5.1.0"
+    "foundation": "~5.4.3"
   }
 }
 
