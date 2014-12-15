@@ -22,10 +22,10 @@ if ( ! function_exists( 'iemotof5_setup' ) ) :
  */
 function iemotof5_setup() {
 
-	/**
-	 * Make theme available for translation
-	 * Translations can be filed in the /languages/ directory
-	 * If you're building a theme based on Iemoto, use a find and replace
+	/*
+	 * Make theme available for translation.
+	 * Translations can be filed in the /languages/ directory.
+	 * If you're building a theme based on iemoto, use a find and replace
 	 * to change 'iemotof5' to the name of your theme in all the template files
 	 */
 	load_theme_textdomain( 'iemotof5', get_template_directory() . '/languages' );
@@ -35,6 +35,14 @@ function iemotof5_setup() {
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
+
+	/*
+	 * Let WordPress manage the document title.
+	 * By adding theme support, we declare that this theme does not use a
+	 * hard-coded <title> tag in the document head, and expect WordPress to
+	 * provide it for us.
+	 */
+	add_theme_support( 'title-tag' );
 
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
@@ -64,7 +72,7 @@ function iemotof5_setup() {
 		'aside', 'image', 'video', 'quote', 'link',
 	) );
 
-	// Setup the WordPress core custom background feature.
+	// Set up the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'iemotof5_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
@@ -98,12 +106,12 @@ function iemotof5_scripts() {
 
 	$iemotof5_theme_data = wp_get_theme();
 	$iemotof5_theme_ver  = $iemotof5_theme_data->get( 'Version' );
-	$foundation_ver  = '5.1.0';
+	$foundation_ver  = '5.4.7';
 
 	$iemotof5_stylesheet     = get_stylesheet_uri();
 
 	if ( defined( 'WP_DEBUG' ) && ( WP_DEBUG == true ) ) { // WP_DEBUG = ture
-		$iemotof5_stylesheet     = get_template_directory_uri() . '/css/style.css';
+		$iemotof5_stylesheet = get_template_directory_uri() . '/css/style.css';
 	}
 
 	// style

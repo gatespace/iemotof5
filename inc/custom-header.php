@@ -21,8 +21,6 @@
  * @uses iemotof5_header_style()
  * @uses iemotof5_admin_header_style()
  * @uses iemotof5_admin_header_image()
- *
- * @package Iemoto Foundation 5
  */
 function iemotof5_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'iemotof5_custom_header_args', array(
@@ -71,7 +69,7 @@ function iemotof5_header_style() {
 	?>
 		.site-title a,
 		.site-description {
-			color: #<?php echo $header_text_color; ?>;
+			color: #<?php echo esc_attr( $header_text_color ); ?>;
 		}
 	<?php endif; ?>
 	</style>

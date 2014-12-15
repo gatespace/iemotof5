@@ -24,7 +24,8 @@
 		?>
 		<?php do_action( 'iemotof5_after_entry_content' ); ?>
 	</div><!-- .entry-content -->
+
 	<footer class="entry-footer">
-		<?php edit_post_link( __( 'Edit', '_s' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Edit', 'iemotof5' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->

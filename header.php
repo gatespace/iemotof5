@@ -11,7 +11,6 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
@@ -21,7 +20,7 @@
 <body <?php body_class(); ?>>
 <?php do_action( 'iemotof5_before_body' ); ?>
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'iemotof5' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 
@@ -51,7 +50,6 @@
 		</div><!-- #site-navigation -->
 
 		<?php do_action( 'iemotof5_after_header' ); ?>
-
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content row">
